@@ -10,8 +10,6 @@ function App() {
   const [error, setError] = useState(null);
 
   const navigate = useNavigate();
-
-
   function getCookie(cname) {
     let name = cname + "=";
     let decodedCookie = decodeURIComponent(document.cookie);
